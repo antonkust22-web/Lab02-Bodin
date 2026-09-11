@@ -12,3 +12,4 @@ C:\Users\Student_10\Documents\Lab02-Bodin\obj\Debug\net10.0\refint\Lab02-Bodin.d
 C:\Users\Student_10\Documents\Lab02-Bodin\obj\Debug\net10.0\Lab02-Bodin.pdb
 C:\Users\Student_10\Documents\Lab02-Bodin\obj\Debug\net10.0\Lab02-Bodin.genruntimeconfig.cache
 C:\Users\Student_10\Documents\Lab02-Bodin\obj\Debug\net10.0\ref\Lab02-Bodin.dll
+C:\Users\Student_10\Documents\Lab02-Bodin\obj\Debug\net10.0\Lab02-Bodin.sourcelink.json

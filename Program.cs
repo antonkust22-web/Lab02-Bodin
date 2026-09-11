@@ -9,9 +9,30 @@
 // Console.WriteLine($"double: {double.MinValue} .. {double.MaxValue}");
 // Console.WriteLine($"decimal: {decimal.MinValue} .. {decimal.MaxValue}");
 
-Console.WriteLine();
-Console.WriteLine("Переполнение byte");
+// Console.WriteLine();
+// Console.WriteLine("Переполнение byte");
 
-byte maxByte = 255;
-byte overflowed = (byte)(maxByte + 1);
-Console.WriteLine($"255 + 1 для byte = {overflowed}");
+// byte maxByte = 255;
+// byte overflowed = (byte)(maxByte + 1);
+// Console.WriteLine($"255 + 1 для byte = {overflowed}");
+
+
+Console.WriteLine();
+Console.WriteLine("char");
+
+char firstLetter = 'a';
+char separator = '-';
+int charAsNumber = firstLetter;
+Console.WriteLine($"Символ: {firstLetter}, разделить: {separator}");
+Console.WriteLine($"Код символа '{firstLetter}' в Unicode: {charAsNumber}");
+Console.WriteLine($"Табуляция:\tпосле таба");
+Console.WriteLine($"Перенос:\nпосле переноса");
+
+Console.WriteLine();
+Console.WriteLine("decimal против double");
+
+double priceDouble = 0.1 + 0.2;
+decimal priceDecimal = 0.1m + 0.2m;
+
+Console.WriteLine($"double: 0.1 + 0.2 = {priceDouble}");
+Console.WriteLine($"Decimal: 0.1 + 0.2 = {priceDecimal}");
